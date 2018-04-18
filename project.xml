@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="test" package="com.azrafe7.pxling" version="1.0.0" company="Company Name" />
+	<app main="Main" path="bin" file="TestPxling" />
+	
+  <window background="#FFFFFF" fps="60" />
+	<window width="1064" height="600" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<source path="src" />
+	
+	<haxeflag name="-D" value="swf-script-timeout=60" />
+
+	<haxelib name="openfl" />
+  
+	<haxelib name="hxPixels" />
+	<haxelib name="pxling" />
+	<haxelib name="arrayargsort" />
+	
+	<assets path="assets" rename="assets" />
+	
+</project>
